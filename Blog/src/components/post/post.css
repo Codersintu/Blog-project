@@ -1,0 +1,37 @@
+.post{
+    flex: 9;
+}
+.postContainer{
+    display: flex;
+   margin: 25px;
+}
+.post1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.postImg{
+    width: 400px;
+    border-radius: 7px;
+    margin-right: 50px;
+}
+.postmusic{
+    color: grey;
+}
+.postTitle{
+    margin: 20px 10px;
+
+}
+.time{
+    margin: 10px 0px;
+}
+.postpara1{
+    width: 400px;
+    text-align: center;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+}

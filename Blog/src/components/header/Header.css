@@ -1,0 +1,23 @@
+.header{
+    margin-top: 60px;
+    position: relative;
+}
+.headerTitle{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.headerTitlesm{
+    /* position: absolute; */
+    font-size: 30px;
+    font-weight: 600;
+}
+.headerTitlelg{
+    font-size: 90px;
+    position: absolute;
+    top: 20px;
+}
+.headerImg{
+     width: 100%;
+     height: 610px;
+}

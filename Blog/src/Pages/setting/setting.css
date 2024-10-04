@@ -1,0 +1,91 @@
+.setting{
+    
+    display: flex;
+    
+}
+
+.settingWrapper{
+    flex: 9;
+    padding: 20px;
+    
+}
+.settingTitle{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.delete{
+    color: lightcoral;
+    cursor: pointer;
+    
+}
+.settingTitleupdate{
+    color: red;
+    
+}
+
+.settingProfile{
+    margin-top: 30px;
+    align-items: center;
+    
+}
+.profileTitle{
+    font-size: 20px;
+    font-weight: 500;
+}
+.profilecon{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+.settingImg{
+    width: 50px;
+    height: 50px;
+    border-radius: 20%;
+    object-fit: cover;
+    margin-right: 15px;
+    cursor: pointer;
+}
+.personIcon{
+    background-color: maroon;
+    border-radius: 50%;
+    color: white;
+    cursor: pointer;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    
+}
+.label{
+    padding: 20px 0px;
+}
+.Input{
+    border: none;
+    border-bottom: 1px solid black;
+    outline: none;
+    
+}
+.Input:hover{
+    outline: none;
+
+}
+.updatebtn{
+    align-self: center;
+  width: 150px;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  background-color: teal;
+  padding: 10px;
+  margin-top: 20px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+    
+}
+.updatebtn:hover {
+    background-color: rgb(1, 114, 114);
+  }

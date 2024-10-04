@@ -1,0 +1,61 @@
+.topbar{
+    width: 100wh;
+    height: 50px;
+    position: sticky;
+    top: 0;
+    display: flex;
+    align-items: center;
+    z-index: 999;
+    
+}
+.leftmenu,.rightmenu{
+    flex: 3;
+}
+.leftmenu{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+.Icon{
+    
+   margin-right: 10px;
+   cursor: pointer;
+}
+.centermenu{
+    flex: 6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.menulist{
+    list-style: none;
+    display: flex;
+    
+}
+.menulistItem{
+    margin-right: 30px;
+    font-size: 20px;
+    font-weight: 500;
+    color: grey;
+    cursor: pointer;
+}
+.rightmenu{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.profileImg{
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.searchIcon{
+    cursor: pointer;
+}
+.link{
+    color: grey;
+    text-decoration: none;
+}
